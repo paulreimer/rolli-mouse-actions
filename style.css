@@ -48,3 +48,10 @@ body {
   text-overflow: ellipsis;
   opacity: 0.6;
 }
+#progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  background-color: black;
+}

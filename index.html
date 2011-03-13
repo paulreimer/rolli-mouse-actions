@@ -9,14 +9,14 @@
     <script src="mouse-actions.js" type="text/javascript"></script>
   </head>
   <body>
-    <div id="infoBox">
+    <div id="infoBox" ondrag="progressDrag()">
+      <div id="progress"></div>
       <div id="title">#title</div>
       <div id="artist">#artist</div>
       <div id="album">#album</div>
     </div>
-    <div id="artBox" onclick="coverClick()">
-      <img src="defaultartwork.png" id="art" alt="artwork"/>
+    <div id="artBox">
+      <img src="defaultartwork.png" id="art" alt="artwork" onclick="coverClick()" ondrag="coverDrag()" />
     </div>
   </body>
 </html>
-
