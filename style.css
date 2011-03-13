@@ -1,50 +1,50 @@
-body{
-	font-family: 'Myriad Pro';
-	overflow: hidden;
-	}
+body {
+  font-family: 'Myriad Pro';
+  overflow: hidden;
+}
 #artBox {
-	width:30px;
-	height:30px;
-	overflow: hidden;
-	}
+  width:30px;
+  height:30px;
+  overflow: hidden;
+}
 #art {
-	height:30px;
-	width:30px;
-	position: absolute;
-	top: 0px;
-	left:0px;
-    -webkit-border-radius: 2px;
+  height:30px;
+  width:30px;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  -webkit-border-radius: 2px;
 }
-#infoBox{
-	position: absolute;
-	top:4px;
-	left:35px;
-	color:#fff;
-	text-shadow: #111 0px 1px 1px;
-	width:250px;
-	text-align: left;
+#infoBox {
+  position: absolute;
+  top:4px;
+  left:35px;
+  color:#fff;
+  text-shadow: #111 0px 1px 1px;
+  width:250px;
+  text-align: left;
 }
-#artist{
-	font-size:11px;
-	line-height: 12px;
-	white-space: nowrap;
-	overflow: hidden;
-	margin: 0 3px 0 0;
-	text-overflow: ellipsis;
-	float: left;
+#artist {
+  font-size:11px;
+  line-height: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 3px 0 0;
+  text-overflow: ellipsis;
+  float: left;
 }
-#title{
-	font-size:15px;
-	line-height: 16px;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+#title {
+  font-size:15px;
+  line-height: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-#album{
-	font-size:11px;
-	line-height: 12px;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	opacity: 0.6;
+#album {
+  font-size:11px;
+  line-height: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0.6;
 }
