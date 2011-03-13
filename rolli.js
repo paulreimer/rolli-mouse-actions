@@ -1,3 +1,9 @@
+function progressUpdate()
+{
+  var currentPosition = Player.playerPosition();
+  var position = (currentPosition / currentTrackLength);
+  $('#progressBar').width($('#infoBox').width()*position);
+}
 function playerUpdate()
 {
   var oldPlayState = 0;
@@ -15,6 +21,7 @@ function playerUpdate()
     }
     oldPlayState = pState;
   }
+  //progressUpdate();
 }
 
 function trackUpdate(track)
