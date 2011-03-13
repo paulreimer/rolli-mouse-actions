@@ -20,6 +20,8 @@
 	<string>rolli-mouse-actions</string>
 	<key>BTThemePreviewImage</key>
 	<string>preview.png</string>
+  <key>BTReadyFunction</key>
+  <string>ready</string>
 	<key>BTTrackFunction</key>
 	<string>trackUpdate</string>
 	<key>BTWindowHeight</key>

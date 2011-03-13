@@ -29,3 +29,7 @@ function artworkUpdate(artURL)
   artURL = artURL || 'defaultartwork.png';
   $('#art').attr({ src: artURL });
 }
+
+function ready()
+{}
+
