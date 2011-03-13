@@ -15,9 +15,9 @@
 	<key>BTThemeArtist</key>
 	<string>maeddes</string>
 	<key>BTThemeIdentifier</key>
-	<string>com.maedddes.rolli</string>
+	<string>net.p-rimes.maedddes.rolli-mouse-actions</string>
 	<key>BTThemeName</key>
-	<string>rolli</string>
+	<string>rolli-mouse-actions</string>
 	<key>BTThemePreviewImage</key>
 	<string>preview.png</string>
 	<key>BTTrackFunction</key>
